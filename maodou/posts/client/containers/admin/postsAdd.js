@@ -180,6 +180,7 @@ const lifeCycle = {
     this.editor.config.customUpload = true;
     this.editor.config.customUploadInit = uploadInit;
     this.editor.config.menuFixed = false;
+    this.editor.config.pasteFilter = false;
     this.editor.create();
   }
 };
